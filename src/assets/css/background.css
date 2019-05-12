@@ -1,0 +1,190 @@
+:root {
+  --color-1: #b0e0ea;
+  --color-1B: #f16975;
+  --color-2: #4ac5d9;
+  --color-2B: #e7bb7a;
+  --sky-ani: skyprss1 3000ms 40000ms linear forwards;
+  --cloud-ani: cloudprss1 3000ms 40000ms linear forwards;
+}
+
+.skySVG{
+  width: 911px;
+  height: 565px;
+  /* transform: translateY(-200px); */
+  margin-left: -5px;
+  margin-top: -5px;
+}
+.skySVG .cls-1{
+  fill:url(#sky-linear-gradient);
+  animation: var(--sky-ani);
+}
+.skySVG .cls-2{
+  fill: #2c545a;
+  animation: var(--sky-ani);
+}
+.skySVG .cls-3{
+  fill:url(#sky-linear-gradient);
+  animation: var(--sky-ani);
+}
+.skySVG .cls-4{
+  /* fill:red; */
+  fill:url(#sky-linear-gradient);
+  animation: var(--sky-ani);
+}
+
+#sky-linear-gradient #color-1{
+  stop-color:var(--color-1);
+
+}
+#sky-linear-gradient #color-2{
+  stop-color:var(--color-2);
+}
+@keyframes skyprss1 {
+  0%{
+    filter: hue-rotate(0deg);
+  }
+  100%{
+    filter: hue-rotate(70deg);
+  }
+}
+
+.groundSVG{
+  position:absolute;
+  width: 555.412px;
+  left: -10px;
+  top: 288px;
+}
+.sea1{
+  width: 488px;
+  left: 446px;
+  top: 470px;
+  animation: waveprss1 4000ms linear infinite;
+}
+.sea2{
+  width: 488px;
+  left: 465px;
+  top: 455px;
+  animation: waveprss2 4000ms linear infinite;
+}
+.sea3{
+  width: 488px;
+  left: 442px;
+  top: 440px;
+  animation: waveprss1 4000ms linear infinite;
+}
+@keyframes waveprss1 {
+  0%{
+    transform: translateX(0px);
+  }
+  50%{
+    transform: translateX(8px);
+  }
+  100%{
+    transform: translateX(0px);
+  }
+}
+@keyframes waveprss2 {
+  0%{
+    transform: translateX(0px);
+  }
+  50%{
+    transform: translateX(-8px);
+  }
+  100%{
+    transform: translateX(0px);
+  }
+}
+.iceberg1{
+  width: 104px;
+  left: 809px;
+  top: 420px;
+  animation: floating 6000ms linear infinite;
+}
+.iceberg2{
+  width: 148px;
+  left: 747px;
+  top: 392px;
+  animation: floating 8000ms linear infinite;
+}
+@keyframes floating {
+  0%{
+    transform: translateY(0px);
+  }
+  50%{
+    transform: translateY(4px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}
+.sun{
+  width: 95.774px;
+  left: 63.324px;
+  top: 63.63px;
+}
+
+.cloudSVG{
+  position: absolute;
+  width: 980px;
+  left: calc(6px - 20px);
+  top: 65px;
+  animation: cloudprss 12800ms infinite linear;
+}
+.cloudSVG .st0{
+  opacity:0.5;
+  fill:#455958;
+}
+.cloudSVG .st1{
+  fill:#4AA8A3;
+  animation: var(--cloud-ani);
+}
+.cloudSVG .st2{
+  fill:#F1F2F2;
+  animation: var(--cloud-ani);
+}
+.cloud1{
+  width: 980px;
+  left: calc(6px - 20px);
+  top: 65px;
+  animation: cloudprss 12800ms infinite linear;
+}
+@keyframes cloudprss {
+  0%{
+    transform: translateX(-10px);
+  }
+  50%{
+    transform: translateX(10px);
+  }
+  100%{
+    transform: translateX(-10px);
+  }
+
+}
+@keyframes cloudprss1 {
+  0%{
+    fill:#F1F2F2;
+  }
+  100%{
+    fill:#38304c;
+  }
+}
+.groundSVG .st0
+{
+  fill:#577B80;
+}
+.groundSVG .st1
+{
+  fill:url(#SVGID_1_);
+}
+.groundSVG .st2
+{
+  fill:url(#SVGID_2_);
+}
+.groundSVG .st3
+{
+  fill:url(#SVGID_3_);
+}
+.groundSVG .st4
+{
+  fill:url(#SVGID_4_);
+}

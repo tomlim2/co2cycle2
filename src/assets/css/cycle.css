@@ -1,0 +1,145 @@
+.fallmv{
+  animation: fallprss forwards;
+}
+@keyframes fallprss {
+  0%{
+    transform: translateY(-1000px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+
+.cycle1{
+  width: 239.593px;
+  left: 161.052px;
+  top: 123.495px;
+}
+.cycle2{
+  width: 56.245px;
+  left: 428.295px;
+  top: 191.774px;
+}
+.cycle3{
+  width: 226.331px;
+  left: 522.201px;
+  top: 111.016px;
+}
+.co2{
+  width: 72px;
+  opacity: 0;
+
+}
+.citysidemv{
+  animation: citysideprss 9000ms infinite linear;
+}
+.mvdelay1{
+  animation-delay: 3000ms
+}
+.mvdelay2{
+  animation-delay: 6000ms
+}
+
+@keyframes citysideprss {
+  0%{
+    left: 136px;
+    top: 372px;
+    opacity: 1;
+  }
+  33%{
+    left: 136px;
+    top: 100px;
+  }
+  66%{
+    left: 378px;
+    top: 100px;
+  }
+  100%{
+    left: 378px;
+    top: -150px;
+    opacity: 1;
+  }
+}
+
+.seasidemv{
+  left: 490px;
+  top: 76px;
+  animation: seasideprss 10s infinite linear;
+}
+
+@keyframes seasideprss {
+  0%{
+    left: 490px;
+    top: 76px;
+    opacity: 1;
+  }
+  20%{
+    left: 710px;
+    top: 76px;
+  }
+  45%{
+    left: 710px;
+    top: 408px;
+  }
+  50%{
+    left: 658px;
+    top: 408px;
+  }
+  80%{
+    left: 658px;
+    top: 134px;
+  }
+  95%{
+    left: 490px;
+    top: 134px;
+  }
+  100%{
+    left: 490px;
+    top: 76px;
+    opacity: 1;
+  }
+}
+.treesidemv{
+  left: 390px;
+  top: 157px;
+  animation: treesideprss 5s infinite linear;
+}
+@keyframes treesideprss {
+  0%{
+    left: 390px;
+    top: 157px;
+    opacity: 1;
+  }
+  15%{
+    left: 450px;
+    top: 157px;
+  }
+  50%{
+    left: 450px;
+    top: 298px;
+  }
+  65%{
+    left: 390px;
+    top: 298px;
+  }
+  100%{
+    left: 390px;
+    top: 157px;
+    opacity: 1;
+  }
+}
+.co2mv{
+  animation: co2prss1 4000ms forwards;
+}
+@keyframes co2prss1 {
+  0%{
+    left: 200px;
+    top: -100px;
+    opacity: 1;
+  }
+  100%{
+    left: 200px;
+    top: 520px;
+    opacity: 1;
+  }
+}
