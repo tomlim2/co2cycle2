@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import city from './../imgs/interactive/City.svg';
-import corals from './../imgs/interactive/Corals.svg';
-import seaweed from './../imgs/interactive/Seaweed.svg';
-import trees from './../imgs/interactive/Trees.svg';
-import car from './../imgs/interactive/Car.svg';
+import city from './../imgs/interactive/City.png';
+import corals from './../imgs/interactive/Corals.png';
+import seaweed from './../imgs/interactive/Seaweed.png';
+import trees from './../imgs/interactive/Trees.png';
+import car from './../imgs/interactive/Car.png';
 import './../css/interactive.css';
 
 class Interactive extends Component {

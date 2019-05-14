@@ -3,8 +3,9 @@
   --color-1B: #f16975;
   --color-2: #4ac5d9;
   --color-2B: #e7bb7a;
-  --sky-ani: skyprss1 3000ms 40000ms linear forwards;
-  --cloud-ani: cloudprss1 3000ms 40000ms linear forwards;
+  --sky-ani: skyprss1 10000ms 40000ms linear forwards;
+  --cloud-ani: cloudprss1 10000ms 40000ms linear forwards;
+  --cloud2-ani: cloudprss2 10000ms 40000ms linear forwards;
 }
 
 .skySVG{
@@ -140,7 +141,7 @@
 }
 .cloudSVG .st2{
   fill:#F1F2F2;
-  animation: var(--cloud-ani);
+  animation: var(--cloud2-ani);
 }
 .cloud1{
   width: 980px;
@@ -161,6 +162,14 @@
 
 }
 @keyframes cloudprss1 {
+  0%{
+    fill:#4AA8A3;
+  }
+  100%{
+    fill:#38304c;
+  }
+}
+@keyframes cloudprss2 {
   0%{
     fill:#F1F2F2;
   }

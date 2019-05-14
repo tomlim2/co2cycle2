@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import cycle1 from './../imgs/cycle/cycle1.svg';
-import cycle2 from './../imgs/cycle/cycle2.svg';
-import cycle3 from './../imgs/cycle/cycle3.svg';
-import co2 from './../imgs/cycle/co2.svg';
+import cycle1 from './../imgs/cycle/cycle1.png';
+import cycle2 from './../imgs/cycle/cycle2.png';
+import cycle3 from './../imgs/cycle/cycle3.png';
+import co2 from './../imgs/cycle/co2.png';
 import CO2 from './co2Prss.js';
 import './../css/cycle.css';
 
