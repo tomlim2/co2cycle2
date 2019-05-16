@@ -1,3 +1,9 @@
+## Carbon Dioxide Cycle, 2019 
+Younsoo Tom Lim
+
+Carbon Dioxide Cycle is web content for my thesis project “Cli-Quest,” which is a climate science exhibition for children. I believe that interactive experience around science could boost interests in environmental issue. The purpose of this visualization and interaction is that children and their parents can understand climate science better and make a better decision for environmental issue today.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
